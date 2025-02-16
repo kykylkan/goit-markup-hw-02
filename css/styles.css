@@ -20,7 +20,9 @@ font-family: "Roboto", sans-serif;
 .logo-span {
     color: #2e2f42;
 }
-
+.logo-span {
+    color: #f4f4fd;
+}
 /* Typography */
 h1 {
     font-size: 56px;
@@ -66,10 +68,9 @@ p {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 .btn-primary:hover {
-    background-color: #404BBF;
+background-color: #404BBF;
 }
 .btn-primary:focus {
     background-color: #404BBF;
