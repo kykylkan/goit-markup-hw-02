@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #434455;
+    background-color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+/* Typography */
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2%;
+}
+
+/* Buttons & Links */
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #404BBF;
+}
+
+a {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+    color: #4D5AE5;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #404BBF;
+}
+
+/* Layout & Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Portfolio Section */
+#portfolio ul li {
+    border: 1px solid #E7E9FC;
+    padding: 16px;
+    background-color: #FFFFFF;
+}
