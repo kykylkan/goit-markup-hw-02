@@ -18,10 +18,7 @@ font-family: "Roboto", sans-serif;
     color: #4d5ae5;
 }
 .logo-span {
-    color: #f4f4fd;
-}
-.logo-span-h {
-color: 2e2f42;
+    color: #2e2f42;
 }
 
 /* Typography */
@@ -71,7 +68,10 @@ p {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover {
+    background-color: #404BBF;
+}
+.btn-primary:focus {
     background-color: #404BBF;
 }
 .nav-link {
@@ -79,7 +79,7 @@ p {
  font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-letter-spacing: 0.02em 
+letter-spacing: 0.02em;
     text-decoration: underline;
     color: #2e2f42;
 }
@@ -88,7 +88,7 @@ letter-spacing: 0.02em
     font-size: 16px;
  font-weight: 400;
     line-height: 24px;
- letter-spacing: 0.02em
+ letter-spacing: 0.02em;
     text-decoration: underline;
     color: #434455;
 }
